@@ -35,7 +35,7 @@ main, footer{
     color: rgb(67, 182, 253);
 }
 
-.testata{
+.testata, .testo_footer{
     color: rgb(158, 158, 158);
 }
 
@@ -94,3 +94,32 @@ thead{
 .riga_colorata{
     background-color: rgb(158, 232, 255);
 }
+
+.testo_footer{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.articoli_suggeriti{
+    width: 300px;
+    height: 250px;
+    margin: 20px 0px;
+    padding: 10px 0px 0px 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+
+.photo_sugg{
+    background-size: cover;
+    background-position: center;
+}
+
+.monitor{
+    background-image: url("../img/monitor.jpg");
+}
+
+.graph{
+    background-image: url("../img/graph.jpg");
+}
+
