@@ -42,3 +42,20 @@ main, footer{
 .data{
     font-size: 15px;
 }
+
+.container_photos_description{
+    margin: 25px 0 25px;
+}
+
+.article_picture{
+    height: 500px;
+}
+
+.description_block{
+    margin-top: 3px;;
+}
+
+.picture_description{
+    font-size: 15px;
+    font-weight: 300;
+}
