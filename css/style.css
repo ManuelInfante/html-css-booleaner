@@ -59,3 +59,38 @@ main, footer{
     font-size: 15px;
     font-weight: 300;
 }
+
+.testo_articolo{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testo_evidenziato{
+    background-color: yellow;
+}
+
+.elenco_puntato{
+    margin: 45px 0px 40px;
+}
+
+table{
+    text-align: left;
+    margin-bottom: 20px;;
+}
+
+thead{
+    background-color: rgb(0, 183, 255);
+    color:white;
+}
+
+.colonna_piccola{
+    width: 20%;
+}
+
+.colonna_grande{
+    width: 60%;
+}
+
+.riga_colorata{
+    background-color: rgb(158, 232, 255);
+}
