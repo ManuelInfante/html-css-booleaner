@@ -1,2 +1,142 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
-/* per questioni di tempo il bonus lo farò questa notte / domani e vi avviserò con un ticket, grazie per la comprensione! */
+body{
+    width: 75%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+main, footer{
+    background-color: white;
+}
+
+header{
+    height: 150px;
+    background-color:rgb(82, 201, 36);
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.logo{
+    width: 30%;
+    position:absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+main, footer{
+    padding: 10px;
+}
+
+.contenitore_dati_blog{
+    margin: 20px 0px;
+}
+
+.contenitore_dati_blog > h1{
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.contenitore_dati_blog h2, footer > h2{
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+}
+
+#author_name{
+    color:rgb(82, 201, 36);
+}
+
+.blocco_riferimenti > .data{
+    font-size: 15px;
+}
+
+.container_photos_description{
+    margin: 5px 0px 10px;
+}
+
+.Picture_block{
+    margin-bottom: 5px;
+}
+
+.picture_block > img{
+    height: 450px;
+}
+
+.description_block > h2{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.testo_articolo{
+    font-size: 20px;
+}
+
+.testo_evidenziato{
+    background-color: yellow;
+}
+
+.elenco_puntato{
+    margin: 45px 0px 40px;
+}
+
+table{
+    text-align: left;
+    margin-bottom: 20px;;
+}
+
+thead{
+    background-color: rgb(0, 183, 255);
+    color:white;
+}
+
+.colonna_piccola{
+    width: 20%;
+}
+
+.colonna_grande{
+    width: 60%;
+}
+
+.riga_colorata{
+    background-color: rgb(158, 232, 255);
+}
+
+footer > h2{
+    font-weight: 600;
+}
+
+.articoli_suggeriti{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin: 20px 0px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+
+.photo_sugg{
+    background-size: cover;
+    background-position: center;
+}
+
+.monitor{
+    background-image: url("../img/monitor.jpg");
+}
+
+.graph{
+    background-image: url("../img/graph.jpg");
+}
+
+
+
+
+
